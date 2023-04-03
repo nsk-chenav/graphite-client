@@ -14,7 +14,7 @@ public class FromImpl implements From {
 	}
 	
 	public FromImpl(int value, GraphiteTimeUnit unit) {
-		this.value = String.format("%i%s", value, unit.value());
+		this.value = String.format("%o%s", value, unit.value());
 	}
 
 	@Override
